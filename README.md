@@ -81,7 +81,7 @@ Inside the browser:
 
 ### Acknowledgment
 
-This project is my result after completing the free and online [tutorial](https://www.youtube.com/watch?v=VwN9OzoK9o8&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR&index=2) provided on youtube.
+This project is my result after completing this free and online [tutorial](https://www.youtube.com/watch?v=VwN9OzoK9o8&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR&index=2) provided on youtube.
 
 ### :page_facing_up: License
 
