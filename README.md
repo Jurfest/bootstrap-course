@@ -70,7 +70,7 @@ Inside the browser:
 <img src="public/Print_2.PNG"/>
 <img src="public/Print_3.PNG"/> -->
 
-### Preview
+<!-- ### Preview -->
 
 <!-- <h1 align="center">
     <img alt="" src="./src/assets/img/home.png" width="940px"/>
@@ -81,7 +81,7 @@ Inside the browser:
 
 ### Acknowledgment
 
-This project is my result after completing the free and online course/tutorial provided by [Ricardo Sanches](https://www.youtube.com/watch?v=VwN9OzoK9o8&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR&index=2).
+This project is my result after completing the free and online tutorial provided on [Ricardo Sanches](https://www.youtube.com/watch?v=VwN9OzoK9o8&list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR&index=2).
 
 ### :page_facing_up: License
 
