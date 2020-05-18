@@ -10,6 +10,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ScrollspyComponent } from './components/scrollspy/scrollspy.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardsComponent } from './components/cards/cards.component';
     NavComponent,
     CarouselComponent,
     ScrollspyComponent,
-    CardsComponent
+    CardsComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
