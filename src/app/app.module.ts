@@ -8,6 +8,7 @@ import { HelloBootstrapComponent } from './components/hello-bootstrap/hello-boot
 import { ColAdminComponent } from './components/col-admin/col-admin.component';
 import { NavComponent } from './components/nav/nav.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { ScrollspyComponent } from './components/scrollspy/scrollspy.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     HelloBootstrapComponent,
     ColAdminComponent,
     NavComponent,
-    CarouselComponent
+    CarouselComponent,
+    ScrollspyComponent
   ],
   imports: [
     BrowserModule,
