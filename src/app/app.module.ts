@@ -7,6 +7,7 @@ import { GlobeComponent } from './animations/globe/globe.component';
 import { HelloBootstrapComponent } from './components/hello-bootstrap/hello-bootstrap.component';
 import { ColAdminComponent } from './components/col-admin/col-admin.component';
 import { NavComponent } from './components/nav/nav.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavComponent } from './components/nav/nav.component';
     GlobeComponent,
     HelloBootstrapComponent,
     ColAdminComponent,
-    NavComponent
+    NavComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
