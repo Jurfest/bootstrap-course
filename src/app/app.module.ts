@@ -9,6 +9,7 @@ import { ColAdminComponent } from './components/col-admin/col-admin.component';
 import { NavComponent } from './components/nav/nav.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ScrollspyComponent } from './components/scrollspy/scrollspy.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScrollspyComponent } from './components/scrollspy/scrollspy.component';
     ColAdminComponent,
     NavComponent,
     CarouselComponent,
-    ScrollspyComponent
+    ScrollspyComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
