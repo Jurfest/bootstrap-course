@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { ScrollspyComponent } from './components/scrollspy/scrollspy.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { ModalComponent } from './components/modal/modal.component';
     CarouselComponent,
     ScrollspyComponent,
     CardsComponent,
-    ModalComponent
+    ModalComponent,
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
