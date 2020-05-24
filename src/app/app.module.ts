@@ -15,7 +15,8 @@ import { ModalComponent } from './components/modal/modal.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FormComponent } from './components/form/form.component'
+import { FormComponent } from './components/form/form.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormComponent } from './components/form/form.component'
     CardsComponent,
     ModalComponent,
     JumbotronComponent,
-    FormComponent
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
