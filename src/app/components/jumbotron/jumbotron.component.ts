@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-jumbotron',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jumbotron.component.sass']
 })
 export class JumbotronComponent implements OnInit {
-
+  faVideo = faVideo;
   constructor() { }
 
   ngOnInit(): void {

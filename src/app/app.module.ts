@@ -14,6 +14,9 @@ import { CardsComponent } from './components/cards/cards.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormComponent } from './components/form/form.component'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +28,14 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
     ScrollspyComponent,
     CardsComponent,
     ModalComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
