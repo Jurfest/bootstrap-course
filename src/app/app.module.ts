@@ -17,7 +17,10 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormComponent } from './components/form/form.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ModalAltComponent } from './components/modal-alt/modal-alt.component'
+import { ModalAltComponent } from './components/modal-alt/modal-alt.component';
+import { ModalCentralComponent } from './components/modal-central/modal-central.component';
+import { ModalAltTwoComponent } from './components/modal-alt-two/modal-alt-two.component';
+import { ModalAltThreeComponent } from './components/modal-alt-three/modal-alt-three.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { ModalAltComponent } from './components/modal-alt/modal-alt.component'
     JumbotronComponent,
     FormComponent,
     FooterComponent,
-    ModalAltComponent
+    ModalAltComponent,
+    ModalCentralComponent,
+    ModalAltTwoComponent,
+    ModalAltThreeComponent
   ],
   imports: [
     BrowserModule,

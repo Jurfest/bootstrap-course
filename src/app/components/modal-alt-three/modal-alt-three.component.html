@@ -1,0 +1,36 @@
+<!-- with ng-template -->
+<!-- <ng-template #modalDialog let-c="close" let-d="dismiss"> -->
+
+<div class="modal fade" id="modal-alt-three" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <!-- modal content -->
+      <div class="modal-header">
+        <h4 class="modal-title">Atenção</h4>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+        <!-- with ng-template -->
+        <!-- <button type="button" class="close" (click)="d('Cross click')">×</button> -->
+      </div>
+      <div class="modal-body">
+        <p>
+          Deseja deletar este usuário?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Donec</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        <!-- with ng-template -->
+        <!-- <button class="btn btn-sm btn-white" (click)="c('Close click')">Cancelar</button>
+        <button class="btn btn-sm btn-danger width-60" (click)="deleteConfirm(); c('Close click')">Deletar</button> -->
+      </div>
+      <!--  -->
+
+    </div>
+  </div>
+</div>
+
+<!-- with ng template -->
+<!-- </ng-template> -->
