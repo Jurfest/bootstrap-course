@@ -20,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ModalAltComponent } from './components/modal-alt/modal-alt.component';
 import { ModalCentralComponent } from './components/modal-central/modal-central.component';
 import { ModalAltTwoComponent } from './components/modal-alt-two/modal-alt-two.component';
-import { ModalAltThreeComponent } from './components/modal-alt-three/modal-alt-three.component'
+import { ModalAltThreeComponent } from './components/modal-alt-three/modal-alt-three.component';
+import { ModalCentralTwoComponent } from './components/modal-central-two/modal-central-two.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ModalAltThreeComponent } from './components/modal-alt-three/modal-alt-t
     ModalAltComponent,
     ModalCentralComponent,
     ModalAltTwoComponent,
-    ModalAltThreeComponent
+    ModalAltThreeComponent,
+    ModalCentralTwoComponent
   ],
   imports: [
     BrowserModule,
